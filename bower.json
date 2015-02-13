@@ -1,0 +1,32 @@
+{
+  "name": "requirejs-seed",
+  "description": "A seed project used to keep track of what yo famous scaffolds....",
+  "version": "0.5.0",
+  "homepage": "https://github.com/Famous/requirejs-seed",
+  "authors": [{
+    "name": "Myles Borins",
+    "url": "http://github.com/Famous/"
+  }],
+  "main": "app/index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "famo.us"
+  ],
+  "license": "ISC",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "src/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.15",
+    "almond": "~0.2.9",
+    "famous-polyfills": "~0.3.0",
+    "famous": "0.3.4"
+  }
+}
